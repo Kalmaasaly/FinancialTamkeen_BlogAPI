@@ -11,7 +11,8 @@ Database Name test_db
 url 
 "sqlConnection": "Data Source=03-TRI-TRAINING\\TEST3;Initial Catalog=test_db; Integrated Security=True;TrustServerCertificate=True"
 
-# go inside procject cmd execute below command it is belong to 'EntityFramework' to reflect change into database test_db
+### go inside procject cmd execute below command it is belong to 'EntityFramework' to reflect change into database test_db
+
  **dotnet ef migrations add InitialCreate** 
 **dotnet ef database update** 
 
