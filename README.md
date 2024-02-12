@@ -13,8 +13,10 @@ url
 
 ### go inside procject cmd execute below command it is belong to 'EntityFramework' to reflect change into database test_db
 
- **dotnet ef migrations add InitialCreate** 
-**dotnet ef database update** 
+ **1.dotnet ef migrations add InitialCreate** 
+
+ 
+**2.dotnet ef database update** 
 
 ## Table Definition
 ```sql
