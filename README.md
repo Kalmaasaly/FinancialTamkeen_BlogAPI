@@ -1,6 +1,6 @@
 # FinancialTamkeen_BlogAPI
 ## Prerequisites
-.NET 5.0 SDK
+.NET 6.0 SDK
 Your preferred database server (e.g., SQL Server)
 How to Run
 Clone the repository
