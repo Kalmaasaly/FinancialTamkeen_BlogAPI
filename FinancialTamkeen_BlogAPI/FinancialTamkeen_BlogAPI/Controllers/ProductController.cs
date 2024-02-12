@@ -44,7 +44,7 @@ namespace FinancialTamkeen_BlogAPI.Controllers
         public IActionResult Delete(int id)
         {
             var existingproduct = _productRepository.GetById(id);
-            if (existingproduct != null)
+            if (existingproduct == null)
             {
                 return BadRequest(new { code = "E002", message = "Doesn't the product exist" });
             }
@@ -55,7 +55,7 @@ namespace FinancialTamkeen_BlogAPI.Controllers
         public IActionResult GetProduct(int id)
         {
             var existingproduct = _productRepository.GetById(id);
-            if (existingproduct != null)
+            if (existingproduct == null)
             {
                 return NotFound(new { code = "E002", message = "Doesn't the product exist" });
             }
