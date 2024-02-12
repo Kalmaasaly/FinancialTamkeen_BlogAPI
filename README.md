@@ -10,10 +10,10 @@ Run the API using dotnet run
 Database Name test_db
 url 
 "sqlConnection": "Data Source=03-TRI-TRAINING\\TEST3;Initial Catalog=test_db; Integrated Security=True;TrustServerCertificate=True"
-## dotnet ef migrations add InitialCreate
-   Creates a new migration, capturing changes to the database schema in code.
-## dotnet ef database update
-   Applies pending migrations, updating the database schema to match the code-defined model.
+
+# go inside procject cmd execute below command it is belong to 'EntityFramework' to reflect change into database test_db
+ **dotnet ef migrations add InitialCreate** 
+**dotnet ef database update** 
 
 ## Table Definition
 ```sql
